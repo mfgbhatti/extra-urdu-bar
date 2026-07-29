@@ -1,0 +1,29 @@
+.extra-urdu-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 0.25em;
+  padding: 0.4em 0.5em;
+  border-bottom: 1px solid var(--primary-low);
+  background: var(--primary-very-low);
+  -webkit-overflow-scrolling: touch;
+
+  .extra-urdu-bar-btn {
+    flex: 0 0 auto;
+    min-width: 2.2em;
+    height: 2.2em;
+    padding: 0 0.3em;
+    font-size: 1.1em;
+    line-height: 1;
+    border: 1px solid var(--primary-low);
+    border-radius: 4px;
+    background: var(--secondary);
+    color: var(--primary);
+    cursor: pointer;
+
+    &:hover,
+    &:active {
+      background: var(--primary-low);
+    }
+  }
+}
