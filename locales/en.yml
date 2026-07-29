@@ -1,5 +1,7 @@
 en:
   theme_metadata:
     description: "Adds a toggle button to the composer that shows/hides a row of extra Urdu characters (hamza letters, diacritics, honorifics, verse marks) not otherwise reachable from a standard keyboard. Tap a character to insert it at the cursor."
-  urdu_extras_bar:
+    name: "Extra Urdu Bar"
+    author: "Farhan Ghani"
+  extra-urdu-bar:
     toggle_title: "Toggle Urdu extra characters bar"
